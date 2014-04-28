@@ -13,12 +13,23 @@
 #   we usually have to do some research on how the task is done:
 #   http://en.wikipedia.org/wiki/Mortgage_calculator
 
+print "Please indicate interest rate: "
+rate = gets.chomp
+print "Please indicate number of payments: "
+nper = gets.chomp
+print "Please indicate the principal value of your desired loan: "
+pv = gets.chomp
+puts rate
+puts nper
+puts pv
+
+
 def pmt(rate, nper, pv)
-  # ============================================
-  # Your code to implement the method goes here.
-  # ============================================
+  puts "Your payment is #{x["rate"]}/#{x["nper"]}"
 end
 
+puts
 # Example usage of the method:
 
 # puts "Your monthly payment will be #{pmt(0.01, 60, 30000)}."
+
